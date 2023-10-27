@@ -515,6 +515,8 @@ while :; do
     shift
 done
 
+__PortableBuild=1
+
 if [[ -z "$__HostArch" ]]; then
     __HostArch=$__TargetArch
 fi
